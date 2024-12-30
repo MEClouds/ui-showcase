@@ -6,6 +6,7 @@ import { HoverCard, HoverCardCode } from "@/components/examples/hover-card"
 import { ShowcaseGrid } from "@/components/showcase-grid"
 import { ShowcaseItem } from "@/components/showcase-item"
 import { Header } from "@/components/heading"
+import Countdown, { countdownCode } from "@/components/examples/count-down"
 
 export default function Home() {
   return (
@@ -27,6 +28,13 @@ export default function Home() {
             code={HoverCardCode}
           >
             <HoverCard />
+          </ShowcaseItem>
+          <ShowcaseItem
+            title="EPL Countdown"
+            description="Countdown timer inspired by the English Premier League"
+            code={countdownCode}
+          >
+            <Countdown />
           </ShowcaseItem>
         </ShowcaseGrid>
       </main>

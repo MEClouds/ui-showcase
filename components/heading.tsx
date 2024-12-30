@@ -4,7 +4,7 @@ export const Header = () => {
       <h2 className="text-4xl font-bold tracking-tight">UI Components</h2>
       <p className="text-xl text-muted-foreground">
         A collection of beautiful and reusable UI components built with Tailwind
-        CSS and Framer Motion.
+        CSS , Shadcn UI and Framer Motion and.
       </p>
     </div>
   )
